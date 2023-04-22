@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MatrixTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MatrixTest-Debug-4b94c1588a9f20c88c6a.json",
+					"jsonFile" : "target-MatrixTest-Debug-d8d624adbc434d7f526c.json",
 					"name" : "MatrixTest",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/ksydex/CLionProjects/MatrixTest/cmake-build-debug",
-		"source" : "/Users/ksydex/CLionProjects/MatrixTest"
+		"build" : "/Users/ksydex/Documents/c/matrix_c_lib/Test/cmake-build-debug",
+		"source" : "/Users/ksydex/Documents/c/matrix_c_lib/Test"
 	},
 	"version" : 
 	{

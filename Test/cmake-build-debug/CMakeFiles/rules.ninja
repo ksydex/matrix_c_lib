@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ksydex/CLionProjects/MatrixTest -B/Users/ksydex/CLionProjects/MatrixTest/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/ksydex/Documents/c/matrix_c_lib/Test -B/Users/ksydex/Documents/c/matrix_c_lib/Test/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

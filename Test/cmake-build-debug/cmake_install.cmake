@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ksydex/CLionProjects/MatrixTest
+# Install script for directory: /Users/ksydex/Documents/c/matrix_c_lib/Test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ksydex/CLionProjects/MatrixTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ksydex/Documents/c/matrix_c_lib/Test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

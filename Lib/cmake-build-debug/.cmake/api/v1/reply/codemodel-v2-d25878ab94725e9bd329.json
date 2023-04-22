@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/ksydex/CLionProjects/MatrixLib/cmake-build-debug",
-		"source" : "/Users/ksydex/CLionProjects/MatrixLib"
+		"build" : "/Users/ksydex/Documents/c/matrix_c_lib/Lib/cmake-build-debug",
+		"source" : "/Users/ksydex/Documents/c/matrix_c_lib/Lib"
 	},
 	"version" : 
 	{

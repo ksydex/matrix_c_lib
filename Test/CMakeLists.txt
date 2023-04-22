@@ -4,3 +4,5 @@ project(MatrixTest C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(MatrixTest main.c)
+target_link_libraries(MatrixTest libmatrix.a)
+

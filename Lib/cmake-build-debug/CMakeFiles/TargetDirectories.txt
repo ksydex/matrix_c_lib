@@ -1,3 +1,3 @@
-/Users/ksydex/CLionProjects/MatrixLib/cmake-build-debug/CMakeFiles/MatrixLib.dir
-/Users/ksydex/CLionProjects/MatrixLib/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ksydex/CLionProjects/MatrixLib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ksydex/Documents/c/matrix_c_lib/Lib/cmake-build-debug/CMakeFiles/MatrixLib.dir
+/Users/ksydex/Documents/c/matrix_c_lib/Lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ksydex/Documents/c/matrix_c_lib/Lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -625,8 +625,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/ksydex/CLionProjects/MatrixTest/cmake-build-debug",
-		"source" : "/Users/ksydex/CLionProjects/MatrixTest"
+		"build" : "/Users/ksydex/Documents/c/matrix_c_lib/Lib/cmake-build-debug",
+		"source" : "/Users/ksydex/Documents/c/matrix_c_lib/Lib"
 	},
 	"version" : 
 	{
