@@ -1,0 +1,3 @@
+/Users/ksydex/CLionProjects/MatrixTest/cmake-build-debug/CMakeFiles/MatrixTest.dir
+/Users/ksydex/CLionProjects/MatrixTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ksydex/CLionProjects/MatrixTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
