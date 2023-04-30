@@ -1,5 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <setjmp.h>
+
+jmp_buf exception_buffer;
+
+void throw_exception(const char *message) {
+    fprintf(stderr, "Error: %s\n", message);
+    longjmp(exception_buffer, 1);
+}
 
 struct Matrix {
     int rows;
@@ -23,8 +30,17 @@ void right_divide(struct Matrix *A, struct Matrix *B, struct Matrix *C);
 
 void print_matrix(struct Matrix *A);
 
+
 void add(struct Matrix *A, struct Matrix *B, struct Matrix *C) {
     int i, j;
+
+    if (A->rows != B->rows || A->cols != B->cols) {
+        throw_exception("Matrices have different dimensions.");
+    }
+
+    C->rows = A->rows;
+    C->cols = A->cols;
+
     for (i = 0; i < A->rows; i++) {
         for (j = 0; j < A->cols; j++) {
             C->data[i][j] = A->data[i][j] + B->data[i][j];
@@ -135,7 +151,7 @@ void print_matrix(struct Matrix *A) {
     int i, j;
     for (i = 0; i < A->rows; i++) {
         for (j = 0; j < A->cols; j++) {
-            printf("%f ", A->data[i][j]);
+            printf("%.2f ", A->data[i][j]);
         }
         printf("\n");
     }
